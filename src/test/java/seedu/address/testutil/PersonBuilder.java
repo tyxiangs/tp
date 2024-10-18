@@ -113,13 +113,6 @@ public class PersonBuilder {
     public Person build() {
         return new Person(name, phone, email, address, remark, tags);
     }
-    public Patient buildPatient() {
-        return new Patient(name, phone, email, address, remark, tags);
-    }
-
-    public Doctor buildDoctor() {
-        return new Doctor(name, phone, email, address, remark, tags);
-    }
 
     /**
      * builds a patient class
